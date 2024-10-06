@@ -1,12 +1,12 @@
 {
-    "name": "pxt-uBit-DUA",
+    "name": "pxt-uBitDUA",
     "version": "0.0.5",
     "description": "sumar BBC micro:bit",
     "dependencies": {
         "core": "*"
     },
     "files": [
-        "led.ts"
+        "main.ts"
     ],
     "testFiles": [
         "tests.ts"

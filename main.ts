@@ -1,14 +1,17 @@
-// main.ts
-namespace led {
-  // Function to turn the LED on
-  export function on() {
-    // Replace this with the actual code to turn on the LED
-    console.log("LED ON!"); 
-  }
+/**
+ * PCA9685
+ */
+//% weight=100 color=#0fbc00 icon="\uf1ec"
+namespace Pruebas DUA {
+    //% block
+    export function on((num1 : number, num2 : number) : number{
+        let resultado = num1 + num2;
+        return resultado; 
+    }
 
-  // Function to turn the LED off
-  export function off() {
-    // Replace this with the actual code to turn off the LED
-    console.log("LED OFF!"); 
-  }
+  //% block
+    export function on((num1 : number, num2 : number) : number{
+        let resta = num1 - num2;
+        return resultado; 
+    }
 }

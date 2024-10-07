@@ -1,7 +1,7 @@
 /**
  * PCA9685
  */
-//% weight=50 color=#0fbc99 icon="\uf1ec"
+//% weight=100 color=#ff0000 icon="\uf500"
 namespace pruebadua {
     //% block
     export function on(num1 : number, num2 : number) : number{

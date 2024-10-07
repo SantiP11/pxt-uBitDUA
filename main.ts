@@ -2,16 +2,15 @@
  * PCA9685
  */
 //% weight=100 color=#0fbc11 icon="\uf1ec"
-namespace Pruebas DUA {
+namespace pruebadua {
     //% block
-    export function on((num1 : number, num2 : number) : number{
+    export function on(num1 : number, num2 : number) : number{
         let resultado = num1 + num2;
-        return resultado; 
+        return resultado;
     }
-
-  //% block
-    export function off((num1 : number, num2 : number) : number{
-        let resta = num1 - num2;
-        return resultado; 
+    //% block
+    export function off(num1 : number, num2 : number) : number{
+        let resultado = num1 - num2;
+        return resultado;
     }
 }

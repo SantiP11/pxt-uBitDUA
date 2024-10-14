@@ -1,5 +1,5 @@
 /**
- * 
+ * PCA9685 
  */
 //% weight=100 color=#ff0000 icon="\uf500"
 namespace pruebadua {

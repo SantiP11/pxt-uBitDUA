@@ -13,4 +13,9 @@ namespace pruebadua {
         let resultado = num1 - num2;
         return resultado;
     }
+    //% block
+    export function pruebapins(num1 : number) : number{
+        pins.digitalWritePin(DigitalPin.P1, 1);
+        return num1+1:
+    }   
 }
